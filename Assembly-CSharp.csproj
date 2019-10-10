@@ -65,24 +65,6 @@
     <Compile Include="Assets\CreateCubeEntitesManager.cs" />
     <Compile Include="Assets\MovementComponent.cs" />
     <Compile Include="Assets\MovenentSystem.cs" />
-    <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/Unity_WorkSpace/HybridECS/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>D:/Unity_WorkSpace/HybridECS/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/Unity_WorkSpace/HybridECS/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>D:/Unity_WorkSpace/HybridECS/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>D:/Unity_WorkSpace/HybridECS/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.UI">
-      <HintPath>D:/Unity_WorkSpace/HybridECS/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Burst">
       <HintPath>D:/Unity_WorkSpace/HybridECS/Library/ScriptAssemblies/Unity.Burst.dll</HintPath>
     </Reference>
@@ -113,11 +95,23 @@
     <Reference Include="Unity.Scenes.Editor">
       <HintPath>D:/Unity_WorkSpace/HybridECS/Library/ScriptAssemblies/Unity.Scenes.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>D:/Unity_WorkSpace/HybridECS/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Mathematics.Extensions">
       <HintPath>D:/Unity_WorkSpace/HybridECS/Library/ScriptAssemblies/Unity.Mathematics.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>D:/Unity_WorkSpace/HybridECS/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Mathematics.Extensions.Hybrid">
       <HintPath>D:/Unity_WorkSpace/HybridECS/Library/ScriptAssemblies/Unity.Mathematics.Extensions.Hybrid.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rendering.Hybrid">
+      <HintPath>D:/Unity_WorkSpace/HybridECS/Library/ScriptAssemblies/Unity.Rendering.Hybrid.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.CollabProxy.Editor">
+      <HintPath>D:/Unity_WorkSpace/HybridECS/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Entities.BuildUtils">
       <HintPath>D:/Unity_WorkSpace/HybridECS/Library/ScriptAssemblies/Unity.Entities.BuildUtils.dll</HintPath>
@@ -143,11 +137,17 @@
     <Reference Include="Unity.Mathematics.Editor">
       <HintPath>D:/Unity_WorkSpace/HybridECS/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>D:/Unity_WorkSpace/HybridECS/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.DataPrivacy">
+      <HintPath>D:/Unity_WorkSpace/HybridECS/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>D:/Unity_WorkSpace/HybridECS/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Transforms.Hybrid">
       <HintPath>D:/Unity_WorkSpace/HybridECS/Library/ScriptAssemblies/Unity.Transforms.Hybrid.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Rendering.Hybrid">
-      <HintPath>D:/Unity_WorkSpace/HybridECS/Library/ScriptAssemblies/Unity.Rendering.Hybrid.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>D:/Software/Unity_2019/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

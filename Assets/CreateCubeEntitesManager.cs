@@ -12,7 +12,7 @@ public class CreateCubeEntitesManager : MonoBehaviour
     public GameObject goPrefab;
     //对象克隆数量
     public int XNum = 10;
-    public int YNum = 10;
+    public int ZNum = 10;
     //实体对象
     Entity entity;
     //实体管理器对象
@@ -32,16 +32,16 @@ public class CreateCubeEntitesManager : MonoBehaviour
         //按照指定的数量，克隆大量实体，且指定分布位置
         for (int x=0; x < XNum; x++)
         {
-            for (int y = 0; y < YNum; y++)
+            for (int z = 0; z < ZNum; z++)
             {
                 //从实体预设，大量克隆实体
                 Entity entityClone = entityMgr.Instantiate(entity);
                 //对克隆实体，定义其初始位置
-                Vector3 postition = transform.TransformPoint(new float3(x - XNum / 2, noise.cnoise(new float2(x, y) * 0.21f), y - YNum / 2));
+                Vector3 postition = transform.TransformPoint(new float3(x - XNum / 2, noise.cnoise(new float2(x, z) * 0.21f), z - ZNum / 2));
                 //实体管理器设置其中的组件参数
                 entityMgr.SetComponentData(entityClone, new Translation() { Value = postition });
                 //把定义的组件加入到实体管理器中
-                entityMgr.AddComponentData(entityClone, new MovementComponent() { speed = 1f });
+                entityMgr.AddComponentData(entityClone, new MovementComponent() { speed = UnityEngine.Random.Range(1, 5) });
             }
         }
     }
